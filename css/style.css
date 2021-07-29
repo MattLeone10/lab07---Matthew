@@ -3,6 +3,8 @@ Base styles
 ***************** */
 
 body {
+	margin: 0px;
+
 	color: #FFFFFF;
 	background-color: #245570;
 }
@@ -31,7 +33,21 @@ Module styles
   	grid-template-columns: 1fr 1fr 1fr;
   	grid-gap: 10px;
 
-  	margin: 20px;
+  	position: fixed;
+  	left: 0px;
+  	z-index: 1;
+  	width: 100%;
+  	margin: 0px;
+  	padding: 5px 20px;
+
+  	background-color: #092534;
+}
+
+.page-top {top: 0px;}
+
+.page-bottom {
+	bottom: 0px;
+	padding: 10px 20px;
 }
 
 .page-top header {grid-column: 1 / span 1;}
