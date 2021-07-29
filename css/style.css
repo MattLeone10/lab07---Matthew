@@ -26,6 +26,20 @@ Layout styles
 Module styles
 ***************** */
 
+.page-top, .page-bottom {
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 10px;
+
+  	margin: 20px;
+}
+
+.page-top header {grid-column: 1 / span 1;}
+
+.page-top nav {grid-column: 2 / span 2;}
+
+.page-bottom footer {grid-column: 1 / span 2;}
+
 .left-leading, .right-leading {
 	color: #092534;
 	background-color: #97725E;
