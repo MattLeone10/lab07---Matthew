@@ -2,8 +2,13 @@
 Base styles
 ***************** */
 
-
-
+/*site general*/
+.container {
+	position: relative;
+	width: 85%;	
+	max-width: 1200px;
+	margin: 0 auto;
+}
 
 
 /* *****************
