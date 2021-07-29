@@ -2,8 +2,12 @@
 Base styles
 ***************** */
 
+body {
+	color: #FFFFFF;
+	background-color: #245570;
+}
 
-
+a {color: #FFFFFF;}
 
 /* *****************
 Layout styles
@@ -22,8 +26,14 @@ Layout styles
 Module styles
 ***************** */
 
+.left-leading, .right-leading {
+	color: #092534;
+	background-color: #97725E;
+}
 
+.left-leading h4, .right-leading h4 {background-color: #95B090;}
 
+.left-leading p, .right-leading p {background-color: #BF957E;}
 
 
 /* *****************
