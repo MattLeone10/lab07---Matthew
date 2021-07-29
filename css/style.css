@@ -2,6 +2,13 @@
 Base styles
 ***************** */
 
+
+
+
+/* *****************
+Layout styles
+***************** */
+
 /*site general*/
 .container {
 	position: relative;
@@ -9,13 +16,6 @@ Base styles
 	max-width: 1200px;
 	margin: 0 auto;
 }
-
-
-/* *****************
-Layout styles
-***************** */
-
-
 
 
 /* *****************
