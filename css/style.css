@@ -80,7 +80,12 @@ Module styles
   	background-color: #092534;
 }
 
-.page-top {top: 0px;}
+.page-top {
+	top: 0px;
+
+	font-size: 40px;
+	font-family: Yellowtail, sans-serif;
+}
 
 .page-bottom {
 	bottom: 0px;
