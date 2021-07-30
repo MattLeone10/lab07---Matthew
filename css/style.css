@@ -13,8 +13,9 @@ body {
 
 h1 {
 	padding: 0px 10px;
-	font-family: Yellowtail, sans-serif;
+
 	font-size: 36px;
+	font-family: Yellowtail, sans-serif;
 }
 
 h3 {
@@ -26,6 +27,7 @@ h3 {
 
 h4 {
 	padding: 10px 15px;
+
 	font-size: 28px;
 }
 
@@ -63,10 +65,11 @@ Layout styles
 Module styles
 ***************** */
 
+/*.page-top and .page-bottom*/
+
 .page-top, .page-bottom {
 	display: grid;
   	grid-template-columns: 1fr 1fr 1fr;
-
   	position: fixed;
   	left: 0px;
   	z-index: 1;
@@ -89,6 +92,8 @@ Module styles
 .page-top nav {grid-column: 2 / span 2;}
 
 .page-bottom footer {grid-column: 1 / span 2;}
+
+/*.lead*/
 
 .lead {
 	display: grid;
@@ -133,6 +138,8 @@ Module styles
 	background-color: #092534;
 }
 
+/*.left-leading and .right-leading*/
+
 .left-leading, .right-leading {
   	margin: 20px;
 
@@ -174,6 +181,8 @@ Module styles
 .left-2col {grid-column: 2 / span 2;}
 
 .right-2col {grid-column: 1 / span 2;}
+
+/*Chicago page*/
 
 .grid {
 	display: grid;
