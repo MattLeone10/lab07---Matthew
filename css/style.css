@@ -5,18 +5,22 @@ Base styles
 body {
 	margin: 0px;
 
+	font-family: Montserrat, sans-serif;
+
 	color: #FFFFFF;
 	background-color: #245570;
 }
 
 h1 {
 	padding: 0px 10px;
-	font-size: 32px;
+	font-family: Yellowtail, sans-serif;
+	font-size: 36px;
 }
 
 h3 {
 	margin: 5px;
 	padding: 0px 15px;
+
 	font-size: 56px;
 }
 
@@ -62,14 +66,13 @@ Module styles
 .page-top, .page-bottom {
 	display: grid;
   	grid-template-columns: 1fr 1fr 1fr;
-  	grid-gap: 10px;
 
   	position: fixed;
   	left: 0px;
   	z-index: 1;
   	width: 100%;
   	margin: 0px;
-  	padding: 5px 20px;
+  	padding: 5px 10px;
 
   	background-color: #092534;
 }
@@ -95,12 +98,16 @@ Module styles
 
 .lead h2 {
 	padding: 0px 15px;
+
 	font-size: 56px;
+	font-family: Teko, sans-serif;
 }
 
 .lead h3 {
 	padding: 10px 15px;
+
 	font-size: 28px;
+	font-family: Teko, sans-serif;
 }
 
 .lead p {
