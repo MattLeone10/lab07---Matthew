@@ -13,26 +13,29 @@ Base styles
 
 .menu li {
 	margin: 0px;
-	padding: 10px 30px;
+	padding: 10px 20px;
+
+	font-size: 32px;
 }
 
+.menu a {
+	text-decoration: none;
+	font-weight: bolder;
 
+	border: 2px solid #092534;
 
-/* *****************
-Layout styles
-***************** */
-
-
-
-
-/* *****************
-Module styles
-***************** */
-
-
-
+}
 
 
 /* *****************
 State styles
 ***************** */
+.menu a:hover {text-decoration: underline;}
+
+.menu a.is-current {
+	color: #092534;
+	background-color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+}
+
+.menu a.is-current:hover {border: 2px solid #245570;}
