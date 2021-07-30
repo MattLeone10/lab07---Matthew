@@ -43,6 +43,17 @@ Layout styles
 	margin: 100px auto;
 }
 
+.flex-box {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	padding: 20px;
+
+	background-color: #97725E;
+}
+
 
 /* *****************
 Module styles
@@ -127,8 +138,6 @@ Module styles
   	grid-template-columns: 33% 33% 34%;
 }
 
-.section-title {grid-column: 1 / span 3;}
-
 .left-leading h4, .right-leading h4 {
 	padding: 10px 20px;
 
@@ -164,11 +173,28 @@ Module styles
   	grid-template-columns: 1fr 2fr;
   	grid-gap: 10px;
   	margin: 10px;
+  	margin-top: 50px;
 }
 
 .grid h4 {
 	margin: auto;
 	padding-top: 10px;
+}
+
+.flex-box figure {background-color: #95B090;}
+
+.flex-box img {
+	margin: auto;
+	padding: 15px;
+}
+
+.flex-box figcaption {
+	padding: 10px;
+
+	font-size: 18px;
+	text-align: center;
+
+	color: #092534;
 }
 
 
