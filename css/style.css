@@ -159,6 +159,18 @@ Module styles
 
 .right-2col {grid-column: 1 / span 2;}
 
+.grid {
+	display: grid;
+  	grid-template-columns: 1fr 2fr;
+  	grid-gap: 10px;
+  	margin: 10px;
+}
+
+.grid h4 {
+	margin: auto;
+	padding-top: 10px;
+}
+
 
 /* *****************
 State styles
