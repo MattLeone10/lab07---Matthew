@@ -163,3 +163,7 @@ Module styles
 /* *****************
 State styles
 ***************** */
+a:hover {
+	text-decoration: underline;
+	opacity: .6;
+}
