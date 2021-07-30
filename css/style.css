@@ -69,13 +69,35 @@ Module styles
 .lead-right {grid-column: 2 / span 2;}
 
 .left-leading, .right-leading {
+  	margin: 20px;
+
 	color: #092534;
 	background-color: #97725E;
 }
 
-.left-leading h4, .right-leading h4 {background-color: #95B090;}
+.left-leading, .right-leading {
+	display: grid;
+  	grid-template-columns: 33% 33% 34%;
+}
 
-.left-leading p, .right-leading p {background-color: #BF957E;}
+.section-title {grid-column: 1 / span 3;}
+
+.left-leading img, .right-leading img {
+	max-width: 90%;
+	margin: 10px auto;
+}
+
+.left-1col, .right-1col {background-color: #95B090;}
+
+.left-1col h4 {grid-column: 1 / span 1;}
+
+.left-1col h4 {grid-column: 3 / span 1;}
+
+.left-2col, .right-2col {background-color: #BF957E;}
+
+.left-2col {grid-column: 2 / span 2;}
+
+.right-2col {grid-column: 1 / span 2;}
 
 
 /* *****************
