@@ -5,7 +5,7 @@ Base styles
 body {
 	margin: 0px;
 
-	font-family: Montserrat, sans-serif;
+	font-family: sans-serif;
 
 	color: #FFFFFF;
 	background-color: #245570;
@@ -140,6 +140,8 @@ Module styles
 	margin-top: 30px;
 	padding: 30px;
 
+	font-family: Montserrat, sans-serif;
+
 	background-color: #092534;
 }
 
@@ -178,6 +180,7 @@ Module styles
 	padding: 20px;
 
 	font-size: 18px;
+	font-family: Montserrat, sans-serif;
 	line-height: 1.3em;
 
 	background-color: #BF957E;
